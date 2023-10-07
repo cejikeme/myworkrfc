@@ -1,3 +1,6 @@
 pip install scapy
 pip install docker 
-pip install mininet 
+pip install mininet
+
+#install mininet 
+#install zeek
