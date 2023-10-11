@@ -1,4 +1,9 @@
-@load base/protocols
+@load base/protocols/conn
+
+event zeek_init()
+{
+    Log::disable_stream(Conn::LOG);
+}
 
 event connection_attempt(c: connection)
 {
