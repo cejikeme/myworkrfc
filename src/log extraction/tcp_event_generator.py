@@ -7,7 +7,7 @@ import sys
 # Example usage:run_zeek_script_on_pcap("input.pcap", "my_zeek_script.zeek")
 pcap_file = "/home/chibuikeejikeme/projects/rfcnlp/myworkrfc/data/4SICS-GeekLounge-151020.pcap"
 zeek_script = "/home/chibuikeejikeme/projects/rfcnlp/myworkrfc/src/log extraction/tcp_monitor.zeek"
-outputfile = "/home/chibuikeejikeme/projects/rfcnlp/myworkrfc/data/tcplog.xml"
+outputfile = "/home/chibuikeejikeme/projects/rfcnlp/myworkrfc/data/tcplog.txt"
 
 def run_zeek_script_on_pcap(pcap_file, zeek_script):
     try:

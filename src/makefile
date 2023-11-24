@@ -19,8 +19,6 @@ run-logstash:
 	sleep 10
 	sudo systemctl stop logstash
 
-
-
 run-scraper:
 	export ZEEKEVENTURL=$(ZEEKEVENTURL) && \
 	$(PYTHON) $(SCRAPERSCRIPT)
