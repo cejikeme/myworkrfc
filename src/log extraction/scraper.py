@@ -68,7 +68,7 @@ def main():
                     print(f"{key}: {value}")
 
             # Write to CSV
-            write_to_csv(event_info_list, 'output.csv')
+            write_to_csv(event_info_list, '/home/chibuikeejikeme/projects/rfcnlp/myworkrfc/data/output.csv')
         else:
             print("Failed to parse HTML or no data found.")
     else:
