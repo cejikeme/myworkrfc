@@ -2,3 +2,5 @@ zeek==6.1.0-dev.154
 requests==2.26.0
 beautifulsoup4==4.10.0
 logstash==8.10.4
+transformers==4.30.2
+torch==2.0.1
